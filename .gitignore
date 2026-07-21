@@ -1,0 +1,15 @@
+composer.lock
+/vendor
+/node_modules
+npm-debug.log
+yarn-error.log
+.phpunit.cache
+.phpunit.result.cache
+/build
+_ide_helper.php
+_ide_helper_models.php
+.phpstorm.meta.php
+/.idea
+/.fleet
+/.vscode
+phpunit.xml
