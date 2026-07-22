@@ -3,8 +3,9 @@
 namespace Hypersender\DistributedTracing\Logging;
 
 use Monolog\LogRecord;
+use Monolog\Processor\ProcessorInterface;
 
-class DistributedTracingProcessor
+class DistributedTracingProcessor implements ProcessorInterface
 {
     /**
      * Enrich the log record with s-request-id and instance context
